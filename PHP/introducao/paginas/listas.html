@@ -1,0 +1,51 @@
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+		<title> listas </title>
+		<style type="text/css">
+			/*Seletor 1 HTML só o nome da tag*/
+			ul{
+				color: #ddd;
+			}
+			/*Seletor 2 Identificador único ID #*/
+			.itens{
+				color: Yellow;
+			}
+			/*Seletor 3 Identificador único ID #*/
+			#meuId{
+				color: RED;
+			}
+			.itens:hover{
+				color:#000;
+			}
+			ol:hover{
+				background-color: #DDD;
+			}
+			*{
+  				transition: all 2s;
+			}
+		</style>
+	</head>
+	<body>
+		<a href="../index.html" > 
+			<< Voltar
+		</a>
+		
+		<ol>
+			<li ONM > Intem A meuId </li>
+			<li> Intem B </li>
+			<li> Outros 
+				<ul>
+					<li class="itens" > Intem A </li>
+					<li class="itens" id="meuId"
+						style="color:blue;" 
+					> Intem B </li>
+					<li class="itens"> Intem c </li>
+					<li> Intem D </li>
+				</ul>
+			</li>
+			<li> Intem D </li>
+		</ol>
+
+	</body>
+</html>
